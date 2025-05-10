@@ -50,9 +50,23 @@
       </div>
   </nav>
 
+
   
-  <div class="container mt-5">
-    <h2 class="text-center mb-4" style="color: #0099FF;">Contacteer mij !</h2>
+  <div class="container-fluid mt-5">
+    <div class="position-relative" style="height: 50vh; overflow-y: auto; overflow-x: hidden; width: 95vw; margin: 0 auto;">
+      <img src="./assets/sfeerbeeld_2.jpg" alt="foto" class="img-fluid" style="height: auto; width: 100%; object-fit: cover;">
+    </div>
+  </div>
+  <div class="container mt-4 center">
+    <br>
+     <form class="mt-4">
+      <h2 class="text-center mb-4" style="color: #0099FF;">Neem contact met mij op!</h2>
+      <p class="text-center" style="color: #0099FF;">Heb je vragen, opmerkingen of wil je gewoon hallo zeggen? Vul het onderstaande formulier in en ik neem zo snel mogelijk contact met je op!</p>
+      <hr>   
+      <div class="mb-3">
+        <label for="company" style="color: #0099FF;">Bedrijf:</label>
+        <input type="text" class="form-control" id="company" placeholder="Vul je bedrijfsnaam in">
+      </div>
       <div class="mb-3">
         <label for="name" style="color: #0099FF;">Naam:</label>
         <input type="text" class="form-control" id="name" placeholder="Vul je naam in">
@@ -69,9 +83,12 @@
         <label for="message" style="color: #0099FF;">Bericht:</label>
         <textarea class="form-control" id="message" rows="4" placeholder="Vul je bericht in"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">Verstuur</button>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary" style="text-align: center;">Verstuur</button>
+      </div>
     </form>
   </div>
+  
 
   
   <footer class="container-fluid bg-light text-center py-3 mt-5"
