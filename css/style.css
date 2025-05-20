@@ -1,69 +1,63 @@
 .portfolio-title {
-          text-align: center;
-          color: #0099FF;
-          margin: 0;
-      }
+    text-align: center;
+    color: #0099FF;
+    margin: 0;
+}
 
-      #portfolio {
-          padding: 20px;
-          background-color: #EAEAEA;
-      }
+#portfolio {
+    padding: 20px;
+    background-color: #EAEAEA;
+}
 
-      .portfolio-item {
-          background-color: #EAEAEA;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          box-sizing: border-box;
-          margin-bottom: 20px;
-          border: 1px solid #ff0066;
-          padding: 10px;
-          text-align: center;
-      }
+.portfolio-item {
+    background-color: #EAEAEA;
+    box-sizing: border-box;
+    border: 1px solid #ff0066;
+    padding: 10px;
+    text-align: center;
+    column-gap: 10px;
+}
 
-      .portfolio-item img {
-          width: 100%;
-          height: 250px;
-          object-fit: cover;
-          border-radius: 8px;
-          margin-bottom: 10px;
-      }
+.portfolio-item figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
 
-      .portfolio-item figcaption {
-          margin-bottom: 10px;
-      }
+.portfolio-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
 
-      .portfolio-item p {
-          flex-grow: 1;
-          align-self: end;
-          margin-bottom: 0;
-      }
+.portfolio-item figcaption {
+    margin-bottom: 10px;
+}
 
-      footer {
-          text-align: center;
-          margin-top: 20px;
-          color: #0099FF;
-      }
+.portfolio-item p {
+    flex-grow: 1;
+    align-self: end;
+    margin-bottom: 0;
+}
 
-      /* Media query voor kleinere schermen */
-      @media (max-width: 768px) {
-          .portfolio-item {
-              margin-bottom: 20px;
-          }
-      }
-      @media (max-width: 480px){
-        .portfolio-item{
-            margin-bottom: 20px;
-        }
-      }
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #0099FF;
+}
 
-      /* Ruimte tussen de kolommen creëren */
-      .row {
-        margin-left: -10px;
-        margin-right: -10px;
-      }
+@media (max-width: 768px) {
+    .portfolio-item {
+        /* Add specific styles here if needed for smaller screens */
+    }
+}
 
-      .col-lg-4, .col-md-6 {
-        padding-left: 10px;
-        padding-right: 10px;
-      }
+@media (max-width: 480px){
+    .portfolio-item{
+        /* Add specific styles here if needed for extra small screens */
+    }
+}
