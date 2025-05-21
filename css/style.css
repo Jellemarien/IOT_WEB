@@ -50,6 +50,9 @@ footer {
     color: #0099FF;
 }
 
+#map { height: 250px; }
+
+
 @media (max-width: 768px) {
     .portfolio-item {
         /* Add specific styles here if needed for smaller screens */
@@ -61,3 +64,4 @@ footer {
         /* Add specific styles here if needed for extra small screens */
     }
 }
+
