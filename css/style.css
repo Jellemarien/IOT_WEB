@@ -52,6 +52,52 @@ footer {
 
 #map { height: 250px; }
 
+.modal-header {
+    background-color: #0099FF;
+    color: #EAEAEA;
+}
+
+.modal-title {
+    color: inherit;
+    font-weight: bold;
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+}
+
+.modal-body {
+    padding: 25px;
+    text-align: left;
+}
+
+.modal-body img {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.modal-body p {
+    color: #0099FF;
+    line-height: 1.7;
+    font-size: 1.1em;
+}
+
+.modal-footer {
+
+    background-color: #0099FF;
+}
+
+.modal-footer .btn-secondary {
+    background-color: #EAEAEA;
+    color: #ff0066;
+}
+
+.modal-footer .btn-secondary:hover {
+    background-color: #EAEAEA;
+    
+}
+
 
 @media (max-width: 768px) {
     .portfolio-item {
