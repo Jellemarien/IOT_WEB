@@ -10,13 +10,16 @@
 }
 
 .portfolio-item {
-    background-color: #EAEAEA;
-    box-sizing: border-box;
-    border: 1px solid #ff0066;
-    padding: 10px;
-    text-align: center;
-    column-gap: 10px;
+   background-color: #0099FF; 
+    border: none; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 15px;  
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
+    margin-left: 0.5rem; 
+    margin-right: 0.5rem;
 }
+
 
 .portfolio-item figure {
     display: flex;
@@ -27,11 +30,11 @@
 }
 
 .portfolio-item img {
-    width: 100%;
-    height: 250px;
+   width: 100%;
+    height: 280px; 
     object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    border-radius: 8px; 
+    margin-bottom: 15px;
 }
 
 .portfolio-item figcaption {
@@ -52,6 +55,25 @@ footer {
 
 #map { height: 250px; }
 
+.btn-custom-pill {
+    background-color: #ff0066; 
+    color: #EAEAEA; 
+    border: none;
+    border-radius: 50px; 
+    padding: 10px 25px; 
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.btn-custom-pill:hover {
+    background-color: #0077CC; 
+    color: #FFFFFF; 
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
 .modal-header {
     background-color: #0099FF;
     color: #EAEAEA;
