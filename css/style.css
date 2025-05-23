@@ -10,10 +10,10 @@
 }
 
 .portfolio-item {
-   background-color: #0099FF; 
+   background-color: #EAEAEA; 
     border: none; 
     border-radius: 15px; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 6px 10px #0099FF; 
     padding: 15px;  
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
     margin-left: 0.5rem; 
@@ -120,11 +120,37 @@ footer {
     
 }
 
+.info-block {
+    box-shadow: 0 6px 10px #ff0066;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem; 
+    border-radius: 15px;
+    color: #0099FF;
+    text-align: center; 
+}
+
+
+.info-block-pink {
+    background-color: #EAEAEA;
+}
+
+.info-block h2 {
+    font-size: 1.5rem; 
+    margin-bottom: 1rem;
+}
+
+.info-block p {
+    font-size: 1rem; 
+    line-height: 1.6;
+}
+
 
 @media (max-width: 768px) {
     .portfolio-item {
-        /* Add specific styles here if needed for smaller screens */
-    }
+        
 }
 
 @media (max-width: 480px){
